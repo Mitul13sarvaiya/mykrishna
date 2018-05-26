@@ -483,8 +483,14 @@ h6,
   font-size: 36px;
 }
 #msg-box2-i .mbr-section-subtitle {
-  color: #a0a0a0;
+  color: #efefef;
 }
 #features1-k .striped .mbr-cards-col:nth-child(2n+1) {
   background-color: #2e2e2e;
+}
+#header6-o .mbr-section-title {
+  color: #28262b;
+}
+#header6-o .mbr-section-text {
+  color: #565656;
 }
