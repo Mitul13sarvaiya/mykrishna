@@ -23,13 +23,14 @@
       "additionalSetColors": [
         "#4738b3",
         "#163fa4",
-        "#222222"
+        "#222222",
+        "#232323"
       ]
     },
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 57,
+    "uniqCompNum": 87,
     "versionPublish": "4.7.6",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/sbe-logo-no-text-128x81.png",
@@ -61,7 +62,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">About US</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">FEATURES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HELP</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">About US</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Our Products.html\">Our products</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Gallery.html\">Gallery</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -252,7 +253,7 @@
           },
           "title": "WELCOME TO S B ENTERPRISE",
           "text": "CLICK TO MORE INFORMATION ABOUT OUR COMPANY",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ABOUT US</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-sites mbr-iconfont mbr-iconfont-btn\"></span>ABOUT US</a>",
           "_tags": [
             "Theme"
           ],
@@ -419,7 +420,7 @@
             "showText": true,
             "showButtons": true,
             "inverse": true,
-            "showArrow": true,
+            "showArrow": false,
             "imageSize": "61",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/img-20180228-wa0037-1280x570.jpg",
@@ -564,7 +565,7 @@
           },
           "text1": "<strong>Address</strong><br><strong><br></strong>, &nbsp;D /378 GIDC Makarpura, Vadodara&nbsp;<br>",
           "text2": "<strong>Contacts</strong><br>\nEmail: info@sbenterprise.net<br>\nPhone: +91- 972487529<br>",
-          "text3": "<strong>Links</strong><br><br>Contact Us Now",
+          "text3": "<strong>Links</strong><br><a href=\"About Us.html\" class=\"text-white\">About Us</a><br><a href=\"Our Products.html\" class=\"text-white\">Our Products</a><br><a href=\"page4.html\" class=\"text-white\">Contact Us</a>",
           "_tags": [
             "Theme"
           ],
@@ -578,7 +579,559 @@
         }
       ]
     },
-    "page1.html": {
+    "Our Products.html": {
+      "settings": {
+        "title": "Our Products",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 2
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">About US</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Our Products.html\">Our products</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Gallery.html\">Gallery</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "30px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#163fa4!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/sbe-logo-no-text-203x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">S B Enterprise</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1p"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".lead": {
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "text-align": "left"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": "4",
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/desert.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": "0.4"
+          },
+          "title": "ABOUT US",
+          "text": "We are wide range of roofing solution provider company",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-1q"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyrights Reserved @ S. B. Enterprise",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#efefef",
+              "font-size": "15px"
+            }
+          },
+          "_anchor": "footer1-1r"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/desktop.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "ABOUT S B ENTERPRISE",
+          "text": "We offer the very best services in our field. We never settle for second best, and always have your satisfaction as our top priority. It’s who we We love what we do and it shows&nbsp;<br>With more than 25 years of experience in the field, we know our industry like the back of our hands. There’s no challenge too big or too small, and we dedicate our utmost energy to every project we take <br>Every customer is unique. That’s why we customize every one of our plans to fit your needs exactly. Whether it’s a small strategy or a comprehensive effort, we’ll sit down with you, listen to your requests, and prepare a customized plan. on.are, and we are proud of it<br> ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">OUR PRODUCTS</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-size": "32px"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "msg-box5-1s"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-mobile2 mbr-iconfont mbr-iconfont-btn\"></span>DOWNLOAD FOR WIN</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WIN</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WIN</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WIN</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-2d",
+          "_styles": {
+            ".btn": {
+              "font-size": "9px"
+            }
+          }
+        },
+        {
+          "_inherit": "gallery1",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": 1,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "filterBgColor": false,
+            "bgColor": "fff",
+            "showText": true,
+            "filter": true,
+            "images": [
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/working-area.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/working-area-small.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "articleLayout": false,
+          "allItem": "All",
+          "_name": "gallery4",
+          "_anchor": "gallery4-2e"
+        },
+        {
+          "_styles": {
+            ".card-subtitle": {
+              "color": "#f3c649"
+            },
+            ".iconbox": {
+              "background-color": "#e25041",
+              "border-color": "#e25041"
+            },
+            "H4": {
+              "color": "#ffffff",
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": false,
+            "iconsBgColor": "#e25041",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": "4",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "like",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#f7da64"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "users",
+              "family": "mobirise-icons-bold",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#f7da64"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "protect",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#f7da64"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "linegraph",
+              "family": "et-line",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#f7da64"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "title1": "Customer Satisfation",
+          "subtitle1": "We are privide best products",
+          "caption1": "We are provide best products in our industry becuase customer satisfaction is more important for as some time our client also support to grow our business&nbsp;",
+          "title2": "Expert Team",
+          "subtitle2": "We have best team to execute products",
+          "caption2": "We have expert team to handle all site projects because all project can not involve 100% so we develop our best team to execute product on site",
+          "title3": "Quality Guaranteed",
+          "subtitle3": "we are belive in quality product&nbsp;",
+          "caption3": "Quality is a best part of out business and we only focus on quality product this is our business policy and this is help to grow our business in many area&nbsp;",
+          "title4": "Best Strategies&nbsp;",
+          "subtitle4": "we make a best strategies for making products",
+          "caption4": "we have use best method of instalation in any site we research all site and plan for that then execute all ideas in to all site because perfaction is very important",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features4",
+          "_anchor": "features4-1t"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "count": 3,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "WHAT OUR FANTASTIC CLIENTS SAY",
+          "subtitle": "Shape your future roofing project with sharp design and best quality products..",
+          "testimonial": [
+            {
+              "authorName": "Himansu Panchal",
+              "authorBio": "Client",
+              "text": "<p>I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity. I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            },
+            {
+              "authorName": "Himansu Panchal",
+              "authorBio": "Client",
+              "text": "<p>I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity.I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            },
+            {
+              "authorName": "Himansu Panchal",
+              "authorBio": "Client",
+              "text": "<p>I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity.I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            }
+          ],
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_anchor": "testimonials1-1u"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#232323"
+            }
+          },
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/landscape3.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "FOLLOW US",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"socicon socicon-linkedin\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"VKontakte\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-vkontakte\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Odnoklassniki\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-odnoklassniki\"></i></a> ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-1v"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/sbe-logo-no-text-1-128x81.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br><strong><br></strong>, &nbsp;D /378 GIDC Makarpura, Vadodara&nbsp;<br>",
+          "text2": "<strong>Contacts</strong><br>\nEmail: info@sbenterprise.net<br>\nPhone: +91- 972487529<br>",
+          "text3": "<strong>Links</strong><br><a href=\"About Us.html\" class=\"text-white\">About Us</a><br><a href=\"Our Products.html\" class=\"text-white\">Our Products</a><br><a href=\"page4.html\" class=\"text-white\">Contact Us</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "contacts1-1w"
+        }
+      ]
+    },
+    "About Us.html": {
       "settings": {
         "title": "About Us",
         "meta_descr": "",
@@ -603,7 +1156,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">About US</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">FEATURES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HELP</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">About US</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Our Products.html\">Our products</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Gallery.html\">Gallery</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -681,14 +1234,18 @@
               "color": "#fff"
             },
             ".lead": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "text-align": "left"
             }
           },
           "_params": {
             "showTitle": true,
             "showText": true,
             "showButton": false,
-            "paddingTop": 3,
+            "paddingTop": "4",
             "paddingBottom": 3,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/desert.jpg",
@@ -701,7 +1258,7 @@
             },
             "overlay": true,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "overlayOpacity": "0.4"
           },
           "title": "ABOUT US",
           "text": "We are wide range of roofing solution provider company",
@@ -745,8 +1302,8 @@
             "showButtons": true,
             "inverse": true,
             "imageSize": 50,
-            "paddingTop": 0,
-            "paddingBottom": 0,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
             "parallax": true,
@@ -779,104 +1336,34 @@
             }
           },
           "title": "ABOUT S B ENTERPRISE",
-          "text": "We offer the very best services in our field. We never settle for second best, and always have your satisfaction as our top priority. It’s who we are, and we are proud of it. ",
+          "text": "We offer the very best services in our field. We never settle for second best, and always have your satisfaction as our top priority. It’s who we We love what we do and it shows&nbsp;<br>With more than 25 years of experience in the field, we know our industry like the back of our hands. There’s no challenge too big or too small, and we dedicate our utmost energy to every project we take <br>Every customer is unique. That’s why we customize every one of our plans to fit your needs exactly. Whether it’s a small strategy or a comprehensive effort, we’ll sit down with you, listen to your requests, and prepare a customized plan. on.are, and we are proud of it<br> ",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">OUR PRODUCTS</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box5",
-          "_anchor": "msg-box5-1f"
-        },
-        {
+          "_anchor": "msg-box5-1f",
           "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            },
-            ".mbr-section-title": {
-              "color": "#000000",
-              "text-align": "left",
-              "font-size": "36px"
+            "H3": {
+              "font-size": "32px"
             },
             "P": {
-              "color": "#000000",
               "text-align": "left"
             }
-          },
-          "_params": {
-            "showTitle": true,
-            "showCaption": true,
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.5
-          },
-          "title": "Who We Are",
-          "caption": "<p>We love what we do and it shows. With more than 25 years of experience in the field, we know our industry like the back of our hands. There’s no challenge too big or too small, and we dedicate our utmost energy to every project we take on.</p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content5",
-          "_anchor": "content5-1h"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            },
-            ".mbr-section-title": {
-              "color": "#000000",
-              "text-align": "left",
-              "font-size": "36px"
-            },
-            "P": {
-              "color": "#000000",
-              "text-align": "left"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showCaption": true,
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.5
-          },
-          "title": "Strategies &amp; Plans",
-          "caption": "<p>Every customer is unique. That’s why we customize every one of our plans to fit your needs exactly. Whether it’s a small strategy or a comprehensive effort, we’ll sit down with you, listen to your requests, and prepare a customized plan.&nbsp;</p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content5",
-          "_anchor": "content5-1j"
+          }
         },
         {
           "_styles": {
             ".card-subtitle": {
-              "color": "#bcbcbc"
+              "color": "#f3c649"
             },
             ".iconbox": {
-              "background-color": "#f2f2f2",
-              "border-color": "#f2f2f2"
+              "background-color": "#e25041",
+              "border-color": "#e25041"
+            },
+            "H4": {
+              "color": "#ffffff",
+              "text-align": "center"
             }
           },
           "_params": {
@@ -885,15 +1372,15 @@
             "showSubtitles": true,
             "ShowTexts": true,
             "showButtons": false,
-            "iconsBgColor": "#f2f2f2",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "columns": 3,
-            "bgImageRadio": false,
+            "iconsBgColor": "#e25041",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": "4",
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgColor": "#efefef",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -904,46 +1391,50 @@
           },
           "media1": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "phone",
+              "linkInNewWindow": false,
+              "name": "like",
+              "family": "MobiriseIcons",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "black",
-              "family": "et-line"
+              "color": "#f7da64"
             }
           },
           "media2": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "edit",
+              "linkInNewWindow": false,
+              "name": "users",
+              "family": "mobirise-icons-bold",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "black",
-              "family": "et-line"
+              "color": "#f7da64"
             }
           },
           "media3": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "briefcase",
+              "linkInNewWindow": false,
+              "name": "protect",
+              "family": "MobiriseIcons",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "black",
-              "family": "et-line"
+              "color": "#f7da64"
             }
           },
           "media4": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
               "name": "linegraph",
+              "family": "et-line",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "black",
-              "family": "et-line"
+              "color": "#f7da64"
             }
           },
           "media5": {
@@ -968,18 +1459,18 @@
               "family": "et-line"
             }
           },
-          "title1": "Bootstrap 4",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Every customer is unique. That’s why we customize every one of our plans to fit your needs exactly. Whether it’s a small strategy or a comprehensive effort, we’ll sit down with you, listen to your requests, and prepare a customized plan. ",
-          "title2": "Responsive",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "title3": "Web Fonts",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title1": "Customer Satisfation",
+          "subtitle1": "We are privide best products",
+          "caption1": "We are provide best products in our industry becuase customer satisfaction is more important for as some time our client also support to grow our business&nbsp;",
+          "title2": "Expert Team",
+          "subtitle2": "We have best team to execute products",
+          "caption2": "We have expert team to handle all site projects because all project can not involve 100% so we develop our best team to execute product on site",
+          "title3": "Quality Guaranteed",
+          "subtitle3": "we are belive in quality product&nbsp;",
+          "caption3": "Quality is a best part of out business and we only focus on quality product this is our business policy and this is help to grow our business in many area&nbsp;",
+          "title4": "Best Strategies&nbsp;",
+          "subtitle4": "we make a best strategies for making products",
+          "caption4": "we have use best method of instalation in any site we research all site and plan for that then execute all ideas in to all site because perfaction is very important",
           "title5": "Trendy Website Blocks",
           "subtitle5": "Choose from the large selection of blocks",
           "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
@@ -996,7 +1487,78 @@
             "Theme"
           ],
           "_name": "features4",
-          "_anchor": "features4-1k"
+          "_anchor": "features4-1m"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "count": 3,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "WHAT OUR FANTASTIC CLIENTS SAY",
+          "subtitle": "Shape your future roofing project with sharp design and best quality products..",
+          "testimonial": [
+            {
+              "authorName": "Himansu Panchal",
+              "authorBio": "Client",
+              "text": "<p>I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity. I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            },
+            {
+              "authorName": "Himansu Panchal",
+              "authorBio": "Client",
+              "text": "<p>I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity.I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            },
+            {
+              "authorName": "Himansu Panchal",
+              "authorBio": "Client",
+              "text": "<p>I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity.I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            }
+          ],
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_anchor": "testimonials1-1o"
         },
         {
           "_styles": {
@@ -1054,7 +1616,7 @@
           },
           "text1": "<strong>Address</strong><br><strong><br></strong>, &nbsp;D /378 GIDC Makarpura, Vadodara&nbsp;<br>",
           "text2": "<strong>Contacts</strong><br>\nEmail: info@sbenterprise.net<br>\nPhone: +91- 972487529<br>",
-          "text3": "<strong>Links</strong><br><br>Contact Us Now",
+          "text3": "<strong>Links</strong><br><a href=\"About Us.html\" class=\"text-white\">About Us</a><br><a href=\"Our Products.html\" class=\"text-white\">Our Products</a><br><a href=\"page4.html\" class=\"text-white\">Contact Us</a>",
           "_tags": [
             "Theme"
           ],
@@ -1065,6 +1627,1004 @@
             }
           },
           "_anchor": "contacts1-19"
+        }
+      ]
+    },
+    "Gallery.html": {
+      "settings": {
+        "title": "Gallery",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 3
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">About US</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Our Products.html\">Our products</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Gallery.html\">Gallery</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "30px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#163fa4!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/sbe-logo-no-text-203x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">S B Enterprise</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1x"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".lead": {
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "text-align": "left"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": "4",
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/desert.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": "0.4"
+          },
+          "title": "ABOUT US",
+          "text": "We are wide range of roofing solution provider company",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-1y"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyrights Reserved @ S. B. Enterprise",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#efefef",
+              "font-size": "15px"
+            }
+          },
+          "_anchor": "footer1-1z"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/desktop.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "ABOUT S B ENTERPRISE",
+          "text": "We offer the very best services in our field. We never settle for second best, and always have your satisfaction as our top priority. It’s who we We love what we do and it shows&nbsp;<br>With more than 25 years of experience in the field, we know our industry like the back of our hands. There’s no challenge too big or too small, and we dedicate our utmost energy to every project we take <br>Every customer is unique. That’s why we customize every one of our plans to fit your needs exactly. Whether it’s a small strategy or a comprehensive effort, we’ll sit down with you, listen to your requests, and prepare a customized plan. on.are, and we are proud of it<br> ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">OUR PRODUCTS</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-size": "32px"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "msg-box5-20"
+        },
+        {
+          "_styles": {
+            ".card-subtitle": {
+              "color": "#f3c649"
+            },
+            ".iconbox": {
+              "background-color": "#e25041",
+              "border-color": "#e25041"
+            },
+            "H4": {
+              "color": "#ffffff",
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": false,
+            "iconsBgColor": "#e25041",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": "4",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "like",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#f7da64"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "users",
+              "family": "mobirise-icons-bold",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#f7da64"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "protect",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#f7da64"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "linegraph",
+              "family": "et-line",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#f7da64"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "title1": "Customer Satisfation",
+          "subtitle1": "We are privide best products",
+          "caption1": "We are provide best products in our industry becuase customer satisfaction is more important for as some time our client also support to grow our business&nbsp;",
+          "title2": "Expert Team",
+          "subtitle2": "We have best team to execute products",
+          "caption2": "We have expert team to handle all site projects because all project can not involve 100% so we develop our best team to execute product on site",
+          "title3": "Quality Guaranteed",
+          "subtitle3": "we are belive in quality product&nbsp;",
+          "caption3": "Quality is a best part of out business and we only focus on quality product this is our business policy and this is help to grow our business in many area&nbsp;",
+          "title4": "Best Strategies&nbsp;",
+          "subtitle4": "we make a best strategies for making products",
+          "caption4": "we have use best method of instalation in any site we research all site and plan for that then execute all ideas in to all site because perfaction is very important",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features4",
+          "_anchor": "features4-21"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "count": 3,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "WHAT OUR FANTASTIC CLIENTS SAY",
+          "subtitle": "Shape your future roofing project with sharp design and best quality products..",
+          "testimonial": [
+            {
+              "authorName": "Himansu Panchal",
+              "authorBio": "Client",
+              "text": "<p>I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity. I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            },
+            {
+              "authorName": "Himansu Panchal",
+              "authorBio": "Client",
+              "text": "<p>I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity.I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            },
+            {
+              "authorName": "Himansu Panchal",
+              "authorBio": "Client",
+              "text": "<p>I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity.I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            }
+          ],
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_anchor": "testimonials1-22"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#232323"
+            }
+          },
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/landscape3.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "FOLLOW US",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"socicon socicon-linkedin\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"VKontakte\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-vkontakte\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Odnoklassniki\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-odnoklassniki\"></i></a> ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-23"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/sbe-logo-no-text-1-128x81.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br><strong><br></strong>, &nbsp;D /378 GIDC Makarpura, Vadodara&nbsp;<br>",
+          "text2": "<strong>Contacts</strong><br>\nEmail: info@sbenterprise.net<br>\nPhone: +91- 972487529<br>",
+          "text3": "<strong>Links</strong><br><a href=\"About Us.html\" class=\"text-white\">About Us</a><br><a href=\"Our Products.html\" class=\"text-white\">Our Products</a><br><a href=\"page4.html\" class=\"text-white\">Contact Us</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "contacts1-24"
+        }
+      ]
+    },
+    "page4.html": {
+      "settings": {
+        "title": "Contact Us",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 4
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">About US</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Our Products.html\">Our products</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Gallery.html\">Gallery</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\">Contact Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "30px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#163fa4!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/sbe-logo-no-text-203x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">S B Enterprise</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-25"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".lead": {
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "text-align": "left"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": "4",
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/desert.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": "0.4"
+          },
+          "title": "ABOUT US",
+          "text": "We are wide range of roofing solution provider company",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-26"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyrights Reserved @ S. B. Enterprise",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#efefef",
+              "font-size": "15px"
+            }
+          },
+          "_anchor": "footer1-27"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/desktop.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "ABOUT S B ENTERPRISE",
+          "text": "We offer the very best services in our field. We never settle for second best, and always have your satisfaction as our top priority. It’s who we We love what we do and it shows&nbsp;<br>With more than 25 years of experience in the field, we know our industry like the back of our hands. There’s no challenge too big or too small, and we dedicate our utmost energy to every project we take <br>Every customer is unique. That’s why we customize every one of our plans to fit your needs exactly. Whether it’s a small strategy or a comprehensive effort, we’ll sit down with you, listen to your requests, and prepare a customized plan. on.are, and we are proud of it<br> ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">OUR PRODUCTS</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-size": "32px"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "msg-box5-28"
+        },
+        {
+          "_styles": {
+            ".card-subtitle": {
+              "color": "#f3c649"
+            },
+            ".iconbox": {
+              "background-color": "#e25041",
+              "border-color": "#e25041"
+            },
+            "H4": {
+              "color": "#ffffff",
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": false,
+            "iconsBgColor": "#e25041",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": "4",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "like",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#f7da64"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "users",
+              "family": "mobirise-icons-bold",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#f7da64"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "protect",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#f7da64"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "linegraph",
+              "family": "et-line",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#f7da64"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "title1": "Customer Satisfation",
+          "subtitle1": "We are privide best products",
+          "caption1": "We are provide best products in our industry becuase customer satisfaction is more important for as some time our client also support to grow our business&nbsp;",
+          "title2": "Expert Team",
+          "subtitle2": "We have best team to execute products",
+          "caption2": "We have expert team to handle all site projects because all project can not involve 100% so we develop our best team to execute product on site",
+          "title3": "Quality Guaranteed",
+          "subtitle3": "we are belive in quality product&nbsp;",
+          "caption3": "Quality is a best part of out business and we only focus on quality product this is our business policy and this is help to grow our business in many area&nbsp;",
+          "title4": "Best Strategies&nbsp;",
+          "subtitle4": "we make a best strategies for making products",
+          "caption4": "we have use best method of instalation in any site we research all site and plan for that then execute all ideas in to all site because perfaction is very important",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features4",
+          "_anchor": "features4-29"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "count": 3,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "WHAT OUR FANTASTIC CLIENTS SAY",
+          "subtitle": "Shape your future roofing project with sharp design and best quality products..",
+          "testimonial": [
+            {
+              "authorName": "Himansu Panchal",
+              "authorBio": "Client",
+              "text": "<p>I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity. I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            },
+            {
+              "authorName": "Himansu Panchal",
+              "authorBio": "Client",
+              "text": "<p>I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity.I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            },
+            {
+              "authorName": "Himansu Panchal",
+              "authorBio": "Client",
+              "text": "<p>I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity.I have tried other products, but this one is certainly the best. It brings efficiency to a new level of simplicity</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            }
+          ],
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_anchor": "testimonials1-2a"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#232323"
+            }
+          },
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/landscape3.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "FOLLOW US",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"socicon socicon-linkedin\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"VKontakte\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-vkontakte\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Odnoklassniki\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-odnoklassniki\"></i></a> ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-2b"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/sbe-logo-no-text-1-128x81.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br><strong><br></strong>, &nbsp;D /378 GIDC Makarpura, Vadodara&nbsp;<br>",
+          "text2": "<strong>Contacts</strong><br>\nEmail: info@sbenterprise.net<br>\nPhone: +91- 972487529<br>",
+          "text3": "<strong>Links</strong><br><a href=\"About Us.html\" class=\"text-white\">About Us</a><br><a href=\"Our Products.html\" class=\"text-white\">Our Products</a><br><a href=\"page4.html\" class=\"text-white\">Contact Us</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "contacts1-2c"
         }
       ]
     }
