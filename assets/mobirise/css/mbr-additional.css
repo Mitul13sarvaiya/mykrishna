@@ -470,3 +470,21 @@ h6,
 #ext_menu-0 .dropdown-item[aria-expanded="true"] {
   color: #163fa4!important;
 }
+#slider-2 H2 {
+  font-size: 46px;
+  text-align: center;
+}
+#slider-2 P {
+  font-size: 22px;
+  text-align: left;
+}
+#msg-box2-i .mbr-section-title {
+  color: #fff;
+  font-size: 36px;
+}
+#msg-box2-i .mbr-section-subtitle {
+  color: #a0a0a0;
+}
+#features1-k .striped .mbr-cards-col:nth-child(2n+1) {
+  background-color: #2e2e2e;
+}
