@@ -914,6 +914,23 @@ h6,
 #content5-2m P {
   text-align: center;
 }
+#buttons1-4e .btn {
+  font-size: 13px;
+}
+#msg-box7-4f .mbr-section-title,
+#msg-box7-4f .lead p {
+  color: #fff;
+}
+#msg-box7-4f H3 {
+  font-size: 32px;
+}
+#features4-4i .card-subtitle {
+  color: #bcbcbc;
+}
+#features4-4i .iconbox {
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
 #ext_menu-2p .hide-buttons .nav-btn {
   display: none !important;
 }
